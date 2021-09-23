@@ -1,0 +1,36 @@
+CRITICAL - 2021-09-19 06:02:44 --> Undefined constant "App\Controllers\Auth"
+#0 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Test->index()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-19 06:03:08 --> Undefined constant "App\Controllers\AuthController"
+#0 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Test->index()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-19 06:03:09 --> Undefined constant "App\Controllers\AuthController"
+#0 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Test->index()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-19 06:03:29 --> Undefined constant "App\Controllers\AuthController"
+#0 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Test->index()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-19 06:03:36 --> Class "App\Controllers\AuthController" not found
+#0 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Test->index()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-19 06:03:40 --> Undefined constant "App\Controllers\AuthController"
+#0 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Test->index()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

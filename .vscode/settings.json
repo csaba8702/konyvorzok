@@ -1,0 +1,4 @@
+{
+    // A szerkesztőablak betűtípusának nagyítása vagy kicsinyítése az egérgörgő `Ctrl` lenyomása mellett történő használata esetén.
+	"editor.mouseWheelZoom": true
+}

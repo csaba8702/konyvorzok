@@ -1,0 +1,268 @@
+ERROR - 2021-09-21 11:05:26 --> Undefined array key "make:config"
+CRITICAL - 2021-09-21 11:11:06 --> Class "App\Controllers\Aauth" not found
+#0 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-21 11:11:25 --> Class "App\Controllers\Aauth" not found
+#0 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-09-21 11:11:47 --> Undefined property: App\Controllers\Auth::$config
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 101)
+#1 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:13:46 --> Call to undefined method App\Controllers\Auth::config()
+#0 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:14:13 --> Cannot declare class App\Libraries\Aauth because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:14:24 --> Cannot declare class App\Libraries\Aauth because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:14:49 --> Cannot declare class App\Libraries\Aauth because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 11:15:21 --> Call to undefined method App\Controllers\Auth::config()
+#0 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:15:25 --> Call to undefined method App\Controllers\Auth::config()
+#0 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:15:54 --> Call to undefined method App\Controllers\Auth::config()
+#0 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:15:56 --> Call to undefined method App\Controllers\Auth::config()
+#0 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:16:09 --> Undefined property: App\Controllers\Auth::$config
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 104)
+#1 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:16:16 --> Call to undefined method App\Controllers\Auth::config()
+#0 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:19:24 --> Unclosed '{' on line 92 does not match ')'
+#0 E:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Aauth')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Aauth')
+#3 E:\xampp\htdocs\ci4\system\Config\Factories.php(149): class_exists('Config\\Aauth')
+#4 E:\xampp\htdocs\ci4\system\Config\Factories.php(115): CodeIgniter\Config\Factories::locateClass(Array, 'Aauth')
+#5 E:\xampp\htdocs\ci4\system\Common.php(228): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(103): config('Aauth')
+#7 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#8 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#10 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-09-21 11:20:18 --> Undefined variable $contact_config
+#0 E:\xampp\htdocs\ci4\app\Config\Aauth.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 141)
+#1 E:\xampp\htdocs\ci4\system\Config\Factories.php(120): Config\Aauth->__construct()
+#2 E:\xampp\htdocs\ci4\system\Common.php(228): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#3 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(103): config('Aauth')
+#4 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#5 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#7 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-21 11:20:22 --> Undefined variable $contact_config
+#0 E:\xampp\htdocs\ci4\app\Config\Aauth.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\xampp\\htdocs...', 141)
+#1 E:\xampp\htdocs\ci4\system\Config\Factories.php(120): Config\Aauth->__construct()
+#2 E:\xampp\htdocs\ci4\system\Common.php(228): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#3 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(103): config('Aauth')
+#4 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#5 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#7 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-09-21 11:21:45 --> syntax error, unexpected single-quoted string "name", expecting ")"
+#0 E:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\xampp\\htdocs...')
+#1 E:\xampp\htdocs\ci4\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Aauth')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Aauth')
+#3 E:\xampp\htdocs\ci4\system\Config\Factories.php(149): class_exists('Config\\Aauth')
+#4 E:\xampp\htdocs\ci4\system\Config\Factories.php(115): CodeIgniter\Config\Factories::locateClass(Array, 'Aauth')
+#5 E:\xampp\htdocs\ci4\system\Common.php(228): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(103): config('Aauth')
+#7 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#8 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#9 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#10 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-09-21 11:25:34 --> Undefined property: Config\Aauth::$Aauth
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 104)
+#1 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:25:59 --> Cannot use object of type Config\Aauth as array
+#0 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:27:06 --> Undefined property: App\Controllers\Auth::$load
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 105)
+#1 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:28:15 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:28:23 --> Call to undefined method CodeIgniter\Session\Session::flashdata()
+#0 E:\xampp\htdocs\ci4\app\Controllers\BaseController.php(75): App\Libraries\Aauth->__construct()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(901): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:36:42 --> Too few arguments to function App\Libraries\Aauth::login(), 0 passed in E:\xampp\htdocs\ci4\app\Controllers\Auth.php on line 22 and at least 2 expected
+#0 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login()
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:37:17 --> Undefined property: App\Controllers\Auth::$input
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 135)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:37:30 --> Call to undefined method App\Controllers\Auth::set_cookie()
+#0 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:39:07 --> Undefined property: App\Controllers\Auth::$input
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 135)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:39:19 --> Call to undefined method App\Controllers\Auth::set_cookie()
+#0 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#1 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-09-21 11:39:21 --> Undefined array key "ddos_protection"
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'E:\\xampp\\htdocs...', 136)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:40:35 --> Undefined property: App\Controllers\Auth::$load
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 161)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:44:40 --> Undefined property: App\Controllers\Auth::$load
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 164)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:44:50 --> Undefined property: App\Controllers\Auth::$lang
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 166)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:45:14 --> Undefined property: App\Controllers\Auth::$lang
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 166)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:45:21 --> Undefined property: App\Controllers\Auth::$lang
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 166)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:45:35 --> Undefined property: App\Controllers\Auth::$lang
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 166)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-09-21 11:45:39 --> Undefined property: App\Controllers\Auth::$lang
+#0 E:\xampp\htdocs\ci4\app\Libraries\Aauth.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'E:\\xampp\\htdocs...', 166)
+#1 E:\xampp\htdocs\ci4\app\Controllers\Auth.php(22): App\Libraries\Aauth->login('Csaba', 'mucika', false, NULL)
+#2 E:\xampp\htdocs\ci4\system\CodeIgniter.php(928): App\Controllers\Auth->login()
+#3 E:\xampp\htdocs\ci4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 E:\xampp\htdocs\ci4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
